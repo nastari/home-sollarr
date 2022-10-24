@@ -30,7 +30,7 @@ const imgAPI = {
     '/images/crypto/03.png',
     'https://via.placeholder.com/1050x700/ef4545/fff',
     'https://via.placeholder.com/1050x700/ffc4c4/757575',
-    'https://via.placeholder.com/640x447/fdffc4/757575',
+    'https://via.placeholder.com/1050x700/ef4545/fff',
     'https://via.placeholder.com/1280x851/c4ffd7/757575',
     'https://via.placeholder.com/640x425/c4cdff/757575',
   ],
