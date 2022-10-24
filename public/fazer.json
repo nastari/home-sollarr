@@ -1,0 +1,142 @@
+{
+  "Merchan": [
+      {
+        "titulo": "Pioneira em Energia Solar",
+        "paragrafo": "A primeira empresa em Energia Solar com uma criptomoeda!"
+      },
+      {
+        "titulo": "Geração de Energia limpa",
+        "paragrafo": "Somos uma empresa preocupada com o meio ambiente e preservação ambiental."
+      },
+      {
+        "titulo": "Mão de obra qualificada",
+        "paragrafo": "Qualificar e gerar mão de obra qualificada é o grande legado que queremos deixar."
+      }
+    ],
+  "SobreNos": {
+    "paragrafo": "SOLLARCOIN é uma criptomoeda verde criada pelo Instituto Aprove para captura financeira e implementação de 3 projetos de Fazendas de Produção de Energia Solar que servirão como distribuição direta e autoconsumo 75(MW).",
+    "Porque": [
+      "Comercialização de Energia Elétrica",
+      "Preservação Ambiental",
+      "Commodities",
+      "Criptomoeda própria"
+    ]
+  },
+  "Galeria": [
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/01-large.jpg",
+      "imagemPequena": "imagem/portfolio/01-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/02-large.jpg",
+      "imagemPequena": "imagem/portfolio/02-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/03-large.jpg",
+      "imagemPequena": "imagem/portfolio/03-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/04-large.jpg",
+      "imagemPequena": "imagem/portfolio/04-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/05-large.jpg",
+      "imagemPequena": "imagem/portfolio/05-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/06-large.jpg",
+      "imagemPequena": "imagem/portfolio/06-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/07-large.jpg",
+      "imagemPequena": "imagem/portfolio/07-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/08-large.jpg",
+      "imagemPequena": "imagem/portfolio/08-small.jpg"
+    },
+    {
+      "titulo": "Titulo da Imagem",
+      "imagemGrande": "imagem/portfolio/09-large.jpg",
+      "imagemPequena": "imagem/portfolio/09-small.jpg"
+    }
+  ],
+  "Servicos": [
+    {
+      "icone": "fa fa-wordpress",
+      "nome": "Comercialização de Energia Elétrica",
+      "texto": "Produção e comercialização de energia elétrica através do sistema solar implementado por empresa especializada no setor."
+    },
+    {
+      "icone": "fa fa-cart-arrow-down",
+      "nome": "RPPNs",
+      "texto": "Preservação de 45 mil Hectares de bioma nativo por meio de RPPNs do projeto Matuto do Instituto Aprove."
+    },
+    {
+      "icone": "fa fa-cloud-download",
+      "nome": "Criptoativo lastreado",
+      "texto": "Somos a primeira empresa em lastrear um criptoativo em commodities como RPPNs e Energia Elétrica."
+    }
+  ],
+  "Time": [
+    {
+      "imagem": "imagem/team/01.jpg",
+      "nome": "John Doe",
+      "cargo": "Director"
+    },
+    {
+      "imagem": "imagem/team/02.jpg",
+      "nome": "Mike Doe",
+      "cargo": "Senior Designer"
+    },
+    {
+      "imagem": "imagem/team/03.jpg",
+      "nome": "Jane Doe",
+      "cargo": "Senior Designer"
+    },
+    {
+      "imagem": "imagem/team/04.jpg",
+      "nome": "Karen Doe",
+      "cargo": "Project Manager"
+    }
+  ],
+  "Contato": {
+    "endereco": "<Endereço da empresa>",
+    "fone": "+1 123 456 1234",
+    "email": "sollarcoin@gmail.com",
+    "instagram":"@sollarcoin",
+    "facebook": "sollarcoin",
+    "twitter": "@sollarcoin",
+    "youtube": "sollarcoin"
+  },
+  "Informacoes": [
+    {
+      "icone": "fa fa-comments-o",
+      "titulo": "Mineração de Criptomoedas",
+      "texto": " Criação de 3 Centros para Mineração de criptomoedas."
+    },
+    {
+      "icone": "fa fa-bullhorn",
+      "titulo": "Centro de Treinamento",
+      "texto": "Criação de 3 Centros para Formação de Mão de obra. Sendo esse um dos nosso objetivos, profissionalizar a comunidade e gerar empregos."
+    },
+    {
+      "icone": "fa fa-group",
+      "titulo": "Geração de Energia",
+      "texto": "Capacidade para gerar 75MW de Energia limpa, que será comercializado pelas industrias parceiras e a comunidade. "
+    },
+    {
+      "icone": "fa fa-magic",
+      "titulo": "Preservação Ambiental",
+      "texto": "Serão destinadas áreas em todas as Fazendas de Energia Solar, para preservação ambiental."
+    }
+  ]
+}
