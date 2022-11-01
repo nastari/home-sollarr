@@ -26,12 +26,13 @@ const cardsStyles = makeStyles(theme => ({
     '&$active': {
       border: `1px solid ${theme.palette.primary.main}`
     },
+
   },
   text: {
     display: '-webkit-box',
     textOverflow: 'ellipsis',
     overflow: 'hidden',
-    height: 80,
+    height: '100%',
     fontSize: 18,
     '-webkit-line-clamp': 3,
     '-webkit-box-orient': 'vertical',

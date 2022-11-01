@@ -85,9 +85,9 @@ function Landing(props) {
           {/* <section id="benefit" className={classes.spaceTopShort}>
             <Benefit />
           </section> */}
-          {/* <section id="testimonials" className={classes.spaceTop}>
+          <section id="testimonials" className={classes.spaceTop}>
             <Testimonials />
-          </section> */}
+          </section>
           <section id="faq" className={classes.spaceTop}>
             <Faq />
           </section>

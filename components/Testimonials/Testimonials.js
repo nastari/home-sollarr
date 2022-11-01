@@ -15,41 +15,41 @@ import useStyle from './testi-style';
 
 const testiContent = [
   {
-    text: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nec ex aliquet, aliquam neque non.',
+    text: 'SollarCoin é uma criptomoeda criada pelo instituto Aprove para alavancar de forma ágil e eficiente a maneira de capitacão financeira, para implantação de projetos das Fazendas de produção de Energia Solar para distribuição direta, na primeira fase no Brasil e depois no mundo.',
     name: 'John Doe',
     avatar: imgApi.avatar[6],
     title: 'Chief Digital Officer',
   },
   {
-    text: 'Vestibulum sit amet tortor sit amet libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper aliquet ultrices. Aenean facilisis vitae purus facilisis semper. Nam vitae scelerisque lorem, quis tempus libero.',
+    text: 'A grande revolução do SollarCoin e que terá dois lastros financeiro, um real lastreado a produção e comercialização da energia solar implantada pelo financiamento das fazendas solares e créditos de carbono gerados. ',
     name: 'Jean Doe',
     avatar: imgApi.avatar[7],
     title: 'Chief Digital Officer',
   },
   {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+    text: 'Segundamente, através do protocolo que otimiza a negociação de finanças descentralizadas, plataformas como Solana (SOL) que facilitam a criação de aplicativos trazendo escalabilidade ao projeto.',
     name: 'Jena Doe',
     avatar: imgApi.avatar[1],
     title: 'Graphic Designer',
   },
   {
-    text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
+    text: 'A primeira captação será de 450 milhoes de reais onde o valor por unidade será de R$ 0,30.',
     name: 'Jovelin Doe',
     avatar: imgApi.avatar[2],
     title: 'Senior Graphic Designer',
   },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'Jihan Doe',
-    avatar: imgApi.avatar[3],
-    title: 'CEO Software House',
-  },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'John Doe',
-    avatar: imgApi.avatar[9],
-    title: 'Senior Graphic Designer',
-  },
+  // {
+  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+  //   name: 'Jihan Doe',
+  //   avatar: imgApi.avatar[3],
+  //   title: 'CEO Software House',
+  // },
+  // {
+  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+  //   name: 'John Doe',
+  //   avatar: imgApi.avatar[9],
+  //   title: 'Senior Graphic Designer',
+  // },
 ];
 
 function Testimonials() {
@@ -89,9 +89,10 @@ function Testimonials() {
   return (
     <div className={classes.root}>
       <Container fixed={isDesktop}>
-        <Title text={t('crypto-landing.testi_title')} align="center" />
+        <Title text="Funcionamento das Usinas" align="center" />
         <Typography className={text.subtitle2} align="center">
-          {t('crypto-landing.testi_subtitle')}
+          {/* {t('crypto-landing.testi_subtitle')} */}
+          Veja as etapas
         </Typography>
         <Grid container spacing={6}>
           <Grid item md={1} xs={12} />

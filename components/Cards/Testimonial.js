@@ -18,13 +18,18 @@ export default function Testimonial(props) {
   return (
     <div className={classes.testimonial}>
       <Paper className={clsx(classes.paper, active ? classes.active : '')}>
-        <Avatar src={avatar} className={classes.avatar} alt="avatar" />
-        <Typography className={classes.text} display="block">{text}</Typography>
-        <Typography variant="caption" className={classes.caption}>
+        {/* <Avatar src={avatar} className={classes.avatar} alt="avatar" /> */}
+        <div style={{
+ display: 'flex', justifyContent: 'center', height: '100%', alignItems: 'center'
+}}
+        >
+          <Typography className={classes.text} display="block">{text}</Typography>
+        </div>
+        {/* <Typography variant="caption" className={classes.caption}>
           {name}
           &nbsp;-&nbsp;
           {title}
-        </Typography>
+        </Typography> */}
       </Paper>
     </div>
   );
