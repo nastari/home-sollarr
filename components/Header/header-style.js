@@ -79,8 +79,8 @@ const headerStyles = makeStyles(theme => ({
       boxShadow: theme.shadows[5],
       '& $logo': {
         '& img': {
-          height: 48,
-          width: 48,
+          height: 78,
+          width: 78,
           marginBottom: 0,
         }
       },
@@ -165,12 +165,12 @@ const headerStyles = makeStyles(theme => ({
     '& img': {
       display: 'block',
       margin: '0 auto',
-      width: 64,
-      height: 64,
+      width: 74,
+      height: 74,
       marginBottom: theme.spacing(),
       [theme.breakpoints.down('sm')]: {
-        height: 48,
-        width: 48,
+        height: 58,
+        width: 58,
       }
     }
   },
