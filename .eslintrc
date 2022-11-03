@@ -53,6 +53,7 @@
     "no-unused-vars": "off",
     "react/default-props-match-prop-types": 0,
     "arrow-parens": 0,
+    "react/no-unused-prop-types": 0,
     "jsx-a11y/label-has-for": [ 2, {
         "required": {
             "every": [ "id" ]
