@@ -165,9 +165,23 @@ function Banner() {
               <div className={classes.text}>
                 <Typography variant="h4" className={text.title2}>
                   {t('crypto-landing.banner_title')}
+                  {' '}
+                  ♻️☀️
                 </Typography>
                 <Typography component="p" className={text.subtitle2}>
-                  {t('crypto-landing.banner_subtitle')}
+                  {/* {t('crypto-landing.banner_subtitle')} */}
+                  <small style={{ letterSpacing: 0.7, lineHeight: 1 }}>
+                    A
+                    {' '}
+                    <div style={{ display: 'inline', color: 'orange' }}>SollarCoin</div>
+                    {' '}
+                    é uma criptomoeda verde criada pelo Instituto Aprove para alavancar de forma ágil e eficiente a maneira de captação financeira, para implantação de projetos de Fazendas de
+                    {' '}
+                    <div style={{ display: 'inline', color: 'orange' }}>produção de Energia Solar</div>
+                    {' '}
+                    para distribuição direta e auto-consumo, e de preservação de áreas ambientais produzindo credito de carbono, na primeira fase no Brasil e depois no mundo.
+                  </small>
+
                 </Typography>
               </div>
               <div className={classes.btnArea}>
