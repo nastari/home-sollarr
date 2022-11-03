@@ -7,6 +7,7 @@ import { useTheme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import { useText } from '~/theme/common';
 import useStyles from './banner-style';
 
@@ -147,6 +148,7 @@ function Banner() {
     }
   }, []);
 
+  const router = useRouter();
   return (
     <div className={classes.root} ref={elem}>
       <div className={classes.canvasWrap}>
@@ -172,7 +174,7 @@ function Banner() {
                 <Button variant="contained" color="secondary" onClick={() => window.open('https://comprar.sollarcoin.com.br')} size="large" fullWidth={isMobile}>
                   {t('crypto-landing.banner_getstarted')}
                 </Button>
-                <Button variant="outlined" className={classes.invert} onClick={() => window.open('#')} size="large" fullWidth={isMobile}>
+                <Button variant="outlined" className={classes.invert} onClick={() => router.push('usinas')} size="large" fullWidth={isMobile}>
                   {t('crypto-landing.banner_viewmarket')}
                 </Button>
               </div>

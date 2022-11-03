@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-useless-fragment */
 import React, { useState, useEffect, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
@@ -12,6 +13,7 @@ import { useTheme } from '@material-ui/core/styles';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import Settings from './Settings';
 // import MarketPrice from './MarketPrice';
 import MobileMenu from './MobileMenu';
@@ -59,11 +61,13 @@ function Header(props) {
   } = props;
   const { t } = useTranslation('common');
 
+  const router = useRouter();
+
   const isDesktop = useMediaQuery(theme.breakpoints.up('lg'));
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const [menuList] = useState([
     createData(navMenu[0], '#' + navMenu[0], 100),
-    createData(navMenu[1], '#' + navMenu[1]),
+    createData(navMenu[1], 'usinas'),
     createData(navMenu[2], '#' + navMenu[2]),
     // createData(navMenu[3], '#' + navMenu[3]),
   ]);
@@ -121,19 +125,33 @@ function Header(props) {
                   currentClassName="active"
                 >
                   {menuList.map(item => (
-                    <li key={item.id.toString()}>
-                      {invert ? (
-                        // eslint-disable-next-line
-                        <Button offset={item.offset || 0} href={'/' + item.url}>
+                    <>
+                      {
+                      item.url === 'usinas' ? (
+                        <Button onClick={() => router.push('usinas')}>
                           {t('crypto-landing.header_' + item.name)}
                         </Button>
                       ) : (
-                        // eslint-disable-next-line
-                        <Button component={AnchorLink} offset={item.offset || 0} href={item.url}>
-                          {t('crypto-landing.header_' + item.name)}
-                        </Button>
-                      )}
-                    </li>
+
+                        <li key={item.id.toString()}>
+
+                          {invert ? (
+                          // eslint-disable-next-line
+                          <Button offset={item.offset || 0} href={'/' + item.url}>
+                            {t('crypto-landing.header_' + item.name)}
+                          </Button>
+                        ) : (
+                          // eslint-disable-next-line
+                          <Button component={AnchorLink} offset={item.offset || 0} href={item.url}>
+                            {t('crypto-landing.header_' + item.name)}
+                          </Button>
+                        )}
+                        </li>
+                      )
+                    }
+
+                    </>
+
                   ))}
                   <li>
                     <Button href={routeLink.crypto.contact}>

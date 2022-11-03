@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-useless-fragment */
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
@@ -7,11 +8,13 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import routeLink from '~/public/text/link';
 import useStyles from './header-style';
 import navMenu from './menu';
 
 function MobileMenu(props) {
+  const router = useRouter();
   const classes = useStyles();
   const { toggleDrawer, open } = props;
   const { t } = useTranslation('common');
@@ -25,15 +28,35 @@ function MobileMenu(props) {
       <div className={clsx(classes.menu, open && classes.menuOpen)}>
         <List component="nav">
           {navMenu.map((item, index) => (
-            <ListItem
-              button
-              component="a"
-              href={`#${item}`}
-              key={index.toString()}
-              style={{ animationDuration: index * 0.15 + 's' }}
-            >
-              <ListItemText primary={t('crypto-landing.header_' + item)} className={classes.menuList} />
-            </ListItem>
+
+            <>
+              {index === 1 ? (
+
+                <ListItem
+                  button
+                  component="a"
+                  onClick={() => router.push('usinas')}
+                  key={index.toString()}
+                  style={{ animationDuration: index * 0.15 + 's' }}
+                >
+                  <ListItemText primary={t('crypto-landing.header_' + item)} className={classes.menuList} />
+                </ListItem>
+
+) : (
+  <ListItem
+    button
+    component="a"
+    href={`#${item}`}
+    key={index.toString()}
+    style={{ animationDuration: index * 0.15 + 's' }}
+  >
+    <ListItemText primary={t('crypto-landing.header_' + item)} className={classes.menuList} />
+  </ListItem>
+
+)}
+
+            </>
+
           ))}
           <ListItem
             button

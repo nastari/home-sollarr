@@ -77,9 +77,9 @@ function Landing(props) {
           <section id="banner">
             <Banner />
           </section>
-          <section id="promotions">
+          {/* <section id="promotions">
             <Promotion />
-          </section>
+          </section> */}
           <section id="feature" className={isTablet ? classes.spaceTopShort : ''}>
             <Feature />
           </section>
