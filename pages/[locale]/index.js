@@ -10,6 +10,7 @@ import { getStaticPaths, makeStaticProps } from '../../lib/getStatic';
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
 import Promotion from '../../components/Promotion';
+import Promotion2 from '../../components/Promotion2';
 import Feature from '../../components/Feature';
 import Benefit from '../../components/Benefit';
 import Testimonials from '../../components/Testimonials';
@@ -77,9 +78,14 @@ function Landing(props) {
           <section id="banner">
             <Banner />
           </section>
-          <section id="promotions">
+
+          <section>
             <Promotion />
           </section>
+
+          {/* <section id="promotions">
+            <Promotion2 />
+          </section> */}
           <section id="feature" className={isTablet ? classes.spaceTopShort : ''}>
             <Feature />
           </section>

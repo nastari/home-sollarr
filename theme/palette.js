@@ -45,13 +45,13 @@ module.exports = {
     palette: {
       primary: {
         light: '#b5e4c9',
-        main: '#16ab57',
-        dark: '#191e17'
+        main: '#00c355',
+        dark: '#141813'
       },
       secondary: {
         light: '#d7d6c8',
-        main: '#ef9e2c',
-        dark: '#584a03'
+        main: '#ddaa00',
+        dark: '#977200'
       }
     }
   },

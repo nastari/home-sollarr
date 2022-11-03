@@ -49,17 +49,24 @@ const bannerStyles = makeStyles(theme => ({
   },
   bannerWrap: {
     position: 'relative',
-    zIndex: 1
+    zIndex: 1,
+    paddingTop: 130,
+    [theme.breakpoints.down('md')]: {
+      paddingTop: 100,
+    },
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 0,
+    }
   },
   objectArt: {
     '& img': {
       position: 'relative',
       zIndex: 1,
-      left: -130,
-      top: 240,
-      maxWidth: 560,
+      left: -50,
+      top: 80,
+      maxWidth: 380,
       [theme.breakpoints.down('md')]: {
-        top: 120
+        top: 60
       }
     },
     [theme.breakpoints.down('sm')]: {

@@ -59,16 +59,16 @@ function AuthFrame(props) {
                   <div className={classes.greeting}>
                     <div className={classes.logo}>
                       <img src={logo} alt="logo" />
-                      <Typography className={text.subtitle2}>
+                      <Typography className={text.subtitle2} style={{ marginLeft: 20 }}>
                         {brand.crypto.projectName}
                       </Typography>
                     </div>
-                    <Typography gutterBottom variant="h4" className={text.title2}>
+                    {/* <Typography gutterBottom variant="h4" className={text.title2}>
                       { title }
                     </Typography>
                     <Typography variant="h6" className={text.paragraph}>
                       { subtitle }
-                    </Typography>
+                    </Typography> */}
                     <div className={classes.decoSm}>
                       <svg width="55px" height="49px" viewBox="0 0 55 49" version="1.1">
                         <defs>
