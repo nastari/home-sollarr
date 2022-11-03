@@ -22,7 +22,7 @@ const appTheme = (color, mode) => ({
     light: '0 10px 15px -5px rgba(62, 57, 107, .07)',
   },
   rounded: {
-    small: '8px',
+    small: '6px',
     medium: '12px',
     big: '20px'
   },

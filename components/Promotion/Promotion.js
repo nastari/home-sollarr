@@ -14,14 +14,14 @@ import imgAPI from '~/public/images/imgAPI';
 const sliderData = [
   {
     image: imgAPI.crypto[0],
-    title: 'Mão de obra qualificada',
-    desc: 'Qualificar e gerar mão de obra qualificada é o grande legado que queremos deixar.',
+    title: 'Missão',
+    desc: 'A SollarCoin é uma criptomoeda verde criada pelo Instituto Aprove para alavancar de forma ágil e eficiente a maneira de captação  financeira, para implantação de projetos de Fazendas de  produção de Energia Solar para distribuição direta e autoconsumo, e de preservação de áreas ambientais produzindo credito de carbono ,  na primeira fase no Brasil e depois no mundo.',
     date: '2023'
   },
   {
     image: imgAPI.crypto[1],
-    title: 'O futuro é verde',
-    desc: 'Somos uma empresa preocupada com o meio ambiente e preservação ambiental.',
+    title: 'Segurança',
+    desc: 'A grande segurança da SollarCoin e que terá dois lastros financeiros reais em  commodities: Produção e comercialização da energia elétrica através do sistema  solar implantada pela SCP FAZENDAS SOLLAR. E a preservação de 45 mil hectares de bioma nativo através de RPPNs do projeto Matuto do Instituto Aprove.',
     date: '2023'
   },
   {
@@ -45,6 +45,7 @@ function Promotion() {
   return (
     <div className={classes.root}>
       <div className={classes.sliderWrap}>
+        {/* <div style={{ padding: '5vh 0px' }}> */}
         <Slider
           className="slider-wrapper"
           previousButton={(
@@ -105,6 +106,7 @@ function Promotion() {
             </div>
           ))}
         </Slider>
+        {/* </div> */}
       </div>
     </div>
   );

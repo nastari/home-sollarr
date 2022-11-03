@@ -105,8 +105,8 @@ function Settings(props) {
   }
 
   const handleChangeMode = () => {
-    setDark(!isDark);
-    props.toggleDark();
+    // setDark(!isDark);
+    // props.toggleDark();
   };
 
   useEffect(() => {
@@ -149,7 +149,7 @@ function Settings(props) {
           horizontal: 'center',
         }}
       >
-        <List
+        {/* <List
           component="nav"
           className={classes.modeMenu}
           aria-label="Mode-menu"
@@ -177,7 +177,7 @@ function Settings(props) {
             </Typography>
           </ListItem>
         </List>
-        <Divider />
+        <Divider /> */}
 
         <List
           component="nav"

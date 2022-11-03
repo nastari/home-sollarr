@@ -69,7 +69,7 @@ const featureStyles = makeStyles(theme => ({
     '& > *': {
       [theme.breakpoints.down('xs')]: {
         width: '50%',
-        padding: theme.spacing(0.5)
+        padding: theme.spacing(0.2)
       }
     }
   },

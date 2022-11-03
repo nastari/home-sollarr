@@ -28,16 +28,16 @@ import '../vendors/page-transition.css';
 import '../vendors/slick/slick.css';
 import '../vendors/slick/slick-theme.css';
 
-let themeType = 'light';
+let themeType = 'dark';
 if (typeof Storage !== 'undefined') { // eslint-disable-line
-  themeType = localStorage.getItem('luxiTheme') || 'light';
+  themeType = localStorage.getItem('luxiTheme') || 'dark';
 }
 
 function MyApp(props) {
   const [loading, setLoading] = useState(0);
   const curLang = lngDetector.detect();
   const [theme, setTheme] = useState({
-    ...appTheme('money', themeType),
+    ...appTheme('grayscale', themeType),
     direction: curLang === 'ar' ? 'rtl' : 'ltr'
   });
 
@@ -51,12 +51,12 @@ function MyApp(props) {
     if (preloader !== null || undefined) {
       setTimeout(() => {
         preloader.remove();
-      }, 1500);
+      }, 1000);
     }
 
     // Remove loading bar
     setLoading(0);
-    setTimeout(() => { setLoading(100); }, 2000);
+    setTimeout(() => { setLoading(100); }, 1200);
 
     // Refresh JSS in SSR
     const jssStyles = document.querySelector('#jss-server-side');
@@ -69,7 +69,7 @@ function MyApp(props) {
     const newPaletteType = theme.palette.type === 'light' ? 'dark' : 'light';
     localStorage.setItem('luxiTheme', theme.palette.type === 'light' ? 'dark' : 'light');
     setTheme({
-      ...appTheme('money', newPaletteType),
+      ...appTheme('grayscale', newPaletteType),
       direction: theme.direction,
     });
   };

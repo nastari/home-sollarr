@@ -56,6 +56,7 @@ function Landing(props) {
   const classes = useStyles();
   const theme = useTheme();
   const isTablet = useMediaQuery(theme.breakpoints.only('md'));
+
   const { onToggleDark, onToggleDir } = props;
   return (
     <React.Fragment>

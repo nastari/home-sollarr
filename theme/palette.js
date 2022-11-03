@@ -44,14 +44,14 @@ module.exports = {
   grayscale: {
     palette: {
       primary: {
-        light: '#CFD8DC',
-        main: '#546E7A',
-        dark: '#263238'
+        light: '#b5e4c9',
+        main: '#16ab57',
+        dark: '#191e17'
       },
       secondary: {
-        light: '#D7CCC8',
-        main: '#6D4C41',
-        dark: '#3E2723'
+        light: '#d7d6c8',
+        main: '#ef9e2c',
+        dark: '#584a03'
       }
     }
   },

@@ -158,7 +158,7 @@ function Header(props) {
                   {t('crypto-landing.header_register')}
                 </Button> */}
               </Hidden>
-              <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} />
+              {/* <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} /> */}
             </nav>
           </div>
         </Container>
