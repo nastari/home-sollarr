@@ -164,22 +164,34 @@ function Banner() {
             <Grid item xs={12} md={8}>
               <div className={classes.text}>
                 <Typography variant="h4" className={text.title2}>
-                  {t('crypto-landing.banner_title')}
+                  Garanta seu lugar ao Sol
+                  {' '}
+                  <br />
+                  com SollarCoin!
                   {' '}
                   ♻️☀️
                 </Typography>
                 <Typography component="p" className={text.subtitle2}>
                   {/* {t('crypto-landing.banner_subtitle')} */}
                   <small style={{ letterSpacing: 0.7, lineHeight: 1 }}>
-                    A
+
+                    Uma empresa que busca unir a
                     {' '}
+                    <div style={{ display: 'inline', color: 'orange' }}>sustentabilidade e blockchain </div>
+                    , implantando projetos de fazendas de produção de energia solar, assim preservando áreas ambientais produzindo credito de carbono!
+
+                    <div style={{ marginTop: 10 }} />
+                    <div style={{ display: 'inline', color: 'orange' }}>
+                      Assim nasceu o token SollarCoin! O futuro é agora!
+                    </div>
+                    {/*
                     <div style={{ display: 'inline', color: 'orange' }}>SollarCoin</div>
                     {' '}
                     é uma criptomoeda verde criada pelo Instituto Aprove para alavancar de forma ágil e eficiente a maneira de captação financeira, para implantação de projetos de Fazendas de
                     {' '}
                     <div style={{ display: 'inline', color: 'orange' }}>produção de Energia Solar</div>
                     {' '}
-                    para distribuição direta e auto-consumo, e de preservação de áreas ambientais produzindo credito de carbono, na primeira fase no Brasil e depois no mundo.
+                    para distribuição direta e auto-consumo, e de preservação de áreas ambientais produzindo credito de carbono, na primeira fase no Brasil e depois no mundo. */}
                   </small>
 
                 </Typography>

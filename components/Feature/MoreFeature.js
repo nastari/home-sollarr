@@ -131,6 +131,25 @@ function MoreFeature() {
             </Grid>
           </Grid>
         </div>
+
+        <div className={classes.item}>
+          <Grid container>
+            <Grid item sm={12}>
+              <div className={clsx(classes.text, classes.center)}>
+                <span className="ion-ios-flash-outline" />
+                <Title className={text.subtitle2} text="Tokenomics" align="center" />
+                <Typography display="block" align="center" className={text.subtitle2}>
+                  <small>
+                    O token Sollarcoin é um token deflacionário que surge como uma porta de entrada para que pessoas comuns ou investidores possam obter lucro expondo-se ao fabuloso mercado ascendente de geração de energia limpa e obter desconto na “conta de luz”.
+                    O lançamento do token Sollarcoin será feito em etapas rápidas, cada etapa com seu respectivo preço.
+                  </small>
+                </Typography>
+              </div>
+
+            </Grid>
+          </Grid>
+        </div>
+
         <div className={classes.item}>
           <Grid container>
             <Grid item sm={12}>

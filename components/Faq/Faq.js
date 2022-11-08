@@ -36,6 +36,14 @@ const faqData = [
     q: 'Posso vender minhas Sollarcoin?',
     a: 'Sim, de forma voluntária você poderá vender seus tokens conforme cronograma de fases. Mas devemos informar que se vender, poderá deixar de ter uma boa rentabilidade no decorrer do projeto.'
   },
+  {
+    q: 'Quando será construída a primeira usina?',
+    a: 'Não podemos prometer datas, pois não depende apenas dos desenvolvedores. Também depende da comunidade. Vamos por etapas, começando pela aquisição do terreno.'
+  },
+  {
+    q: 'Como será a transparência sobre os lucros obtidos pela usina quando estiver em operação?',
+    a: 'Tudo será conduzido com a máxima transparência e seriedade. O projeto inclui a contratação de uma auditoria independente do grupo empresarial que auditará os resultados e emitirá relatórios públicos.'
+  }
 ];
 
 function Faq() {
